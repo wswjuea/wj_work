@@ -1,0 +1,248 @@
+/*基本格式开始***************************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul{
+	list-style:none;
+}
+img,a img {
+	border:0px;
+	text-decoration:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+/*基本格式结束***************************/
+
+/*查看更多的按钮样式**********************/
+.btnstyle {
+	color:black;
+	font-size:13px;
+	font-weight:bold;
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	margin:10px 0 0 0;	
+}
+.btnstyle:hover {
+	background:url(hover.png);
+	color:#fff;
+	text-decoration:none;
+}
+/*查看更多的按钮样式**********************/
+#main {
+	background:url(main_top_bg.jpg) repeat-x;
+}
+#main1 {
+	background:url(main1_bottom_bg.jpg) 0px bottom repeat-x;
+}
+
+/*头部开始*/
+#header {
+	height:452px;
+	background:url(top_bg.jpg);
+	color:#fff;
+}
+#top {
+	height:100px;
+	background:;
+}
+.logo{
+	width:291px;
+	padding:25px 0 0 25px;
+	float:left;
+}
+#top h1 span { 
+	font-size:14px;
+	color:#ccc;
+	float:right;
+}
+#top .serach{
+	width:280px;
+	height:50px;
+	float:right;
+	margin:30px 30px 0px 20px;
+}
+#top .serach .text{
+	width:180px;
+	height:15px;
+	background:black;
+	color:#bcbcbc;
+	padding:5px;
+}
+#top .serach .submit {
+	width:80px;
+	height:28px;
+	cursor:pointer;
+}
+#nav {
+	height:50px;
+	background:;
+}
+#nav ul {
+	margin:0 0 0 10px;
+}
+#nav ul li {
+	float:left;
+	margin:0 10px 0 0;
+}
+#nav ul li a {
+	color:black;
+	font-size:13px;
+	font-weight:bold;
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	margin:10px 0 0 0;	
+}
+#nav ul li a:hover {
+	background:url(hover.png);
+	color:#fff;
+	text-decoration:none;
+}
+#runplay {
+	height:302px;
+	background:url(runplay_bg.jpg);
+}
+#runplay .left {
+	width:300;
+	margin:50px 0 0 30px;
+	float:left;
+}
+#runplay .right {
+	float:left;
+	margin:50px 0 0 80px;
+}
+#runplay .right dl dt {
+	font-size:24px;
+	color:#fff;
+	margin:0 0 20px 0;
+}
+#runplay .right dl .txt {
+	font-size:16px;
+	color:#fff;
+	margin:0 0 20px 0;
+}
+#runplay .right dl .btn a {
+	background:url(default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	text-decoration: none;
+	color:#fff;
+	font-weight:bold;
+}
+#runplay .right dl .btn a:hover {
+	background:url(d_hover.png);
+	
+}
+.auto {
+	width:980px;
+	margin:0px auto;
+}
+/*头部结束*/
+
+/*wrap部分定义了中间部分居中 开始*********/
+#wrap {
+	width:920px;
+	height:860px;
+	margin:0px auto;
+}
+/*wrap部分定义了中间部分居中 结束*********/
+
+/*wrap部分定义了中间部分左侧 开始*********/
+#wrap #leftBody {
+	width:620px;
+	height:860px;
+	background:;
+	float:left;
+}
+#wrap #rightBody {
+	width:240px;
+	height:860px;
+	float:right;
+} 
+/*wrap部分定义了中间部分左侧 结束*********/
+/*右侧相同开始*************/
+#wrap #rightBody .rightDiv1 h2 {
+	color:#000;
+	font-size:24px;
+	font-weight:normal;
+	margin:25px 0 0px 0;
+}
+#wrap #rightBody .rightDiv1 ul li {
+	border-bottom:1px dashed #ccc;
+	height:70px;
+	padding:15px 0 0 0;
+}
+#wrap #rightBody .rightDiv1 ul li h3 a {
+	color:#0074c5;
+	font-weight:normal;
+	text-decoration:underline;
+}
+#wrap #rightBody .rightDiv1 ul li h3 a:hover {
+	color:#009900;
+}
+#wrap #rightBody .rightDiv1 ul li p {
+	color:#555;
+	padding:5px 0 0 0;
+} 
+#rightBody .rightDiv2 dl {
+	width:100%;
+	height:64px;
+	margin:35px 0 0 0;
+}
+#rightBody .rightDiv2 dl dt {
+	padding:8px 0 3px 0;
+}
+#rightBody .rightDiv2 dl dt a {
+	color:#333;
+	font-size:24px;
+	font-weight:bold;
+}
+#rightBody .rightDiv2 dl dd {
+	font-size:15px;
+	color:#333;
+	font-weight:bold;
+}
+#rightBody .rightDiv2 .dl1 {
+	background:url(twitter.png) no-repeat center right;
+}
+#rightBody .rightDiv2 .dl2 {
+	background:url(rss.png) no-repeat center right;
+}
+
+/*右侧相同结束*************/
+/*底部开始****************/
+#footer {
+	height:100px;
+	background:url(footer_bg.jpg) repeat-x;
+}
+#footer p {
+	text-align:center;
+	color:#fff;
+}
+#footer p a {
+	color:#fff;
+	text-decoration:underline;
+	line-height:200%;
+	margin:0px 20px 0 0;
+}
+#footer p.p1 {
+	padding:15px 0 0 0;
+}
+#footer p a.last {
+	margin:0;
+}
+/*底部结束******************/

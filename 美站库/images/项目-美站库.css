@@ -1,0 +1,52 @@
+/**/
+#wrap #leftBody .leftDiv1 h2 {
+	color:#000;
+	font-size:24px;
+	font-weight:normal;
+	margin:25px 0 20px 0;
+}
+#wrap #leftBody .leftDiv1 p {
+	color:#555;
+	
+}
+#wrap #leftBody .leftDiv1 p a {
+	color:#0074c5;
+}
+#wrap #leftBody .leftDiv2 h2 {
+	color:#000;
+	font-size:24px;
+	font-weight:normal;
+	margin:25px 0 20px 0;
+}
+#wrap #leftBody .leftDiv2 ul li {
+	width:270px;
+	height:170px;
+	background:#f1f2ea;
+	border:1px solid #d5d7ca;
+	padding:6px;
+	float:left;
+	margin:0 25px 25px 0px;
+}
+#wrap #leftBody .leftDiv2 ul li p {
+	color:#000;
+	font-size:16px;
+	margin:10px 0 0 0;
+	font-weight:bold;
+}
+#wrap #leftBody .leftDiv3 {
+	clear:both;
+}
+#wrap #leftBody .leftDiv3 a {
+	background:url(default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	text-decoration: none;
+	color:#fff;
+	font-weight:bold;
+}
+#wrap #leftBody .leftDiv3 a:hover {
+	background:url(d_hover.png);
+}
